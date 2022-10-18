@@ -1,0 +1,276 @@
+/* navbar start  */
+.nav-ul {
+    display: flex;
+    list-style: none;
+    /* margin-top: auto; */
+    background-color: #2874f0;
+    justify-content: center;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.nav-ul li {
+    transition-property: background-color;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+    padding: 17px 18px;
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    padding: 17px 18px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    font-family: 'Roboto';
+    transition-property: color;
+    transition-delay: 0.2s;
+    transition-duration: 0.5s;
+}
+
+.nav-ul li:hover {
+    background-color: #1766e6;
+}
+
+.nav-ul li a:hover {
+    color: #ffff4a;
+}
+.text-right{
+    text-align: right;
+    justify-content: right;
+}
+.invalid-input{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: -8px;
+    color: red;
+    font-style: italic;
+}
+/* navbar end  */
+
+/* sign up start  */
+.signup {
+    background-image: url('https://img.freepik.com/free-vector/bright-yellow-background-with-lines-pattern_1017-33497.jpg?w=2000');
+    background-size: cover;
+    padding: 40px 0px;
+}
+
+.signup h2 {
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    font-size: 31px;
+}
+.signup h3 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.signup-form input {
+    padding: 10px;
+    width: 340px;
+    margin: 9px 0px;
+    border: 3px solid #0e68f8;
+    border-radius: 6px;
+    outline: none;
+}
+
+.signup-form input::placeholder {
+    color: #aaaaaa;
+    font-weight: 700;
+    font-style: italic;
+    /* font-size: 22px; */
+}
+
+.submitbtn {
+    padding: 10px;
+    border-radius: 36px;
+    margin-top: 14px;
+    width: 170px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, #0e68f8, #ffff4a, #ffff4a, #0e68f8);
+    background-size: 320% 100% !important;
+    transition: all .4s ease-in-out
+}
+
+.submitbtn:hover {
+    background-position: 100% 0;
+}
+
+.signup-form p {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 11px;
+}
+/* signup end  */
+
+/* Login start  */
+.login {
+    background-image: url('https://img.freepik.com/free-vector/bright-yellow-background-with-lines-pattern_1017-33497.jpg?w=2000');
+    background-size: cover;
+    padding: 120px 0px;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 4px;
+    margin-top: 8px;
+    font-size: 31px;
+}
+.login h3 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 17px;
+    font-weight: 600;
+}
+/* login end  */
+
+/* add products start  */
+.add-product{
+    background-image: url(https://inchoo.net/wp-content/uploads/2014/08/merchant-center-magento.png);
+    background-size: cover;
+    background-position: -175px 140px;
+    background-attachment: fixed;
+}
+.add-product h2{
+    margin-top: 0px;
+    text-align: center;
+    background-color: chartreuse;
+    color: white;
+    padding: 9px;
+}
+.products{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+.products input{
+    outline: none;
+    padding: 9px 11px;
+    border: 3px dashed;
+    border-radius: 30px;
+    margin: 8px 0px;
+    width: 259px;
+    text-align: center;
+    color: #2874f0;
+    font-weight: 600;
+}
+.addproduct-btn {
+    padding: 10px;
+    border-radius: 36px;
+    margin-top: 12px;
+    width: 152px;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-image: linear-gradient(to right, #0e68f8, #19ff00, #19ff00, #0e68f8);
+    background-size: 285% 100% !important;
+    transition: all .4s ease-in-out
+}
+
+.addproduct-btn:hover {
+    background-position: 100% 0;
+}
+.products input::placeholder {
+    color: #aaaaaa;
+    font-weight: 700;
+    font-style: italic;
+    /* font-size: 22px; */
+}
+/* add products end  */
+
+/* product lists start  */
+.productul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.productul li{
+    padding: 12px 0px;
+    width: 174px;
+    text-align: center;
+    border: 1px solid #1c2dd5;
+    background-color: #2874f0;
+    color: white;
+    font-weight: 600;
+}
+.productulMap{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+.productulMap li{
+    padding: 12px 0px;
+    width: 174px;
+    text-align: center;
+    border: 1px solid #1c2dd5;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+.update-delete-li{
+    display: flex;
+    justify-content: space-evenly;
+}
+.update-btn{
+    padding: 8px;
+    border-radius: 7px;
+    background-color: #02ad02;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.delete-btn{
+    padding: 8px;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    padding: 13px;
+    width: 274px;
+    border: 1px dashed;
+    border-radius: 4px;
+    font-size: 15px;
+    outline-color: #2874f0;
+}
+.search button{
+    cursor: pointer;
+}
+/* product lists end */
+/* footer start  */
+.footer {
+    /* position: absolute; */
+    background-color: #ffff4a;
+    text-align: center;
+    width: 100%;
+}
+
+.footer h3 {
+    margin: 0px;
+    padding: 11px;
+}
+/* footer end  */
